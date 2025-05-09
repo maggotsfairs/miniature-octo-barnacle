@@ -1,0 +1,7 @@
+<p id="coords">Move your mouse!</p>
+
+<script>
+document.addEventListener("mousemove", e => {
+  document.getElementById("coords").textContent = `📍 X: ${e.clientX}, Y: ${e.clientY}`;
+});
+</script>
